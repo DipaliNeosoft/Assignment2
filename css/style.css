@@ -1,0 +1,49 @@
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.carousel-caption {
+    top: 205px;
+    bottom: auto;
+    font-weight: bold;
+}
+.hc{
+    color: skyblue;
+}
+.checked {
+    color : yellow;
+    font-size : 10px;
+}
+.unchecked {
+    font-size : 10px;
+}
+#price{
+    color: red;
+    font-size: 30px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.f{
+    font-size: 24px;
+    padding: 15px;
+}
+.row.content {height: 450px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+input[type="submit"],input[type="reset"]{
+    color: white;
+    padding: 12px;
+    margin: 40px;
+    border-radius: 20px;
+}
